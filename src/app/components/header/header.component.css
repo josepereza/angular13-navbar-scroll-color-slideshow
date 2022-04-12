@@ -44,7 +44,14 @@ img {
     animation: cabezera 24s ease-in 0s infinite;
     opacity: 0;
 }
-
+.foto{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../../assets/images/luna.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 @keyframes cabezera {
     0% {
 
