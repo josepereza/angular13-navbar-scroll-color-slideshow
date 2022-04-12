@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { HeaderComponent } from './components/header/header.component';
+import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
+import { PricingComponent } from './components/pricing/pricing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FormularioComponent,
-    HeaderComponent
+    HeaderComponent,
+    JumbotronComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
