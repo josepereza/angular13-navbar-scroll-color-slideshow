@@ -7,6 +7,7 @@ import { FormularioComponent } from './components/formulario/formulario.componen
 import { HeaderComponent } from './components/header/header.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
     FormularioComponent,
     HeaderComponent,
     JumbotronComponent,
-    PricingComponent
+    PricingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

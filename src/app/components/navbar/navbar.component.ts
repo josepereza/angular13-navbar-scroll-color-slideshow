@@ -12,7 +12,7 @@ export class NavbarComponent implements OnInit {
 isactive:boolean=false
 scrolling:boolean=false
 prevScrollpos = 0
-barraTransparente:boolean=false;
+barraTransparente:boolean=true;
 altura:number=0;
   constructor(@Inject(DOCUMENT) private document: Document) { }
   @HostListener('document:scroll', ['$event']) onScrollEvent($event:any){
